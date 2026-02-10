@@ -1,0 +1,22 @@
+{
+  "brand": "ElimuLink",
+  "tagline": "Unified school portal, student services, and executive intelligence.",
+  "nav": [
+    { "label": "Home", "to": "/" },
+    { "label": "About", "to": "/about" },
+    { "label": "Solutions", "to": "/solutions" },
+    { "label": "Institutions", "to": "/institutions" },
+    { "label": "Students", "to": "/students" },
+    { "label": "Blog", "to": "/blog" },
+    { "label": "Contact", "to": "/contact" }
+  ],
+  "cta": {
+    "primary": { "label": "Get Started", "href": "mailto:hello@elimulink.co.ke" },
+    "secondary": { "label": "View Executive App", "href": "https://elimulink-executive-app.vercel.app" }
+  },
+  "solutions": [
+    { "title": "KUCCPS", "desc": "Placement, admissions, and program guidance integration (planned)." },
+    { "title": "Banks", "desc": "Fees, finance, and settlement integrations (planned)." },
+    { "title": "M-Pesa", "desc": "Payments, invoices, and receipts integrations (planned)." }
+  ]
+}
