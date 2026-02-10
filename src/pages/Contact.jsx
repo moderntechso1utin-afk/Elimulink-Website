@@ -1,14 +1,23 @@
-import site from "../content/site.json";
+import RequestDemoForm from "../components/RequestDemoForm";
 
 export default function Contact() {
   return (
-    <section>
-      <h1>Contact</h1>
-      <p>{site.contact.intro}</p>
-      <ul>
-        <li>Email: <a href={`mailto:${site.contact.email}`}>{site.contact.email}</a></li>
-        <li>Phone: <a href={`tel:${site.contact.phone}`}>{site.contact.phone}</a></li>
-      </ul>
+    <section className="section">
+      <div className="container">
+        <div className="surface" style={{ padding: 26 }}>
+          <div className="kicker">Contact</div>
+          <h1 className="h1" style={{ marginTop: 10 }}>Request a demo — we’ll reach out.</h1>
+          <p className="p" style={{ maxWidth: 900 }}>
+            Email: <span style={{ color: "var(--text)", fontWeight: 750 }}>hello@elimulink.co.ke</span>
+            <br />
+            We respond quickly and keep it simple.
+          </p>
+
+          <div style={{ marginTop: 18 }}>
+            <RequestDemoForm />
+          </div>
+        </div>
+      </div>
     </section>
   );
 }
